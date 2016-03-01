@@ -1,0 +1,42 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ControlFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="00:00:00"
+            android:id="@+id/time_text"
+            android:gravity="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Start"
+            android:id="@+id/start_stop"
+            android:textSize="30dp"
+            android:gravity="left|center_vertical"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Lap"
+            android:id="@+id/lap"
+            android:textSize="30dp"
+            android:gravity="left|center_vertical"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Reset"
+            android:id="@+id/reset"
+            android:textSize="30dp"
+            android:gravity="left|center_vertical" />
+    </LinearLayout>
+</FrameLayout>
